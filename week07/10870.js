@@ -17,7 +17,7 @@ rl.on("line", (input) => {
   const n = parseInt(input); // 입력값을 받아 정수로 변환
   const result = fibonacci(n); // 피보나치 수 계산
 
-  console.log(result); // 결과 출력
+  console.log(result); //결과 출력
 
   rl.close();
 }).on("close", () => {
